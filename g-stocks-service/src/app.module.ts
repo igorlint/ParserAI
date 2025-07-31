@@ -11,7 +11,12 @@ import { ReservationsModule } from './reservations/reservation.module';
 import { HistoryModule } from './history/history.module';
 import { EventsModule } from './events/events.module';
 
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+
 @Module({
+  controllers: [AppController],
+  providers: [AppService],
   imports: [
     ConfigModule.forRoot({ isGlobal: true, load: [configuration] }),
     TypeOrmModule.forRoot(typeOrmConfig),
