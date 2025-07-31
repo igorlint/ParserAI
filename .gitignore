@@ -1,0 +1,15 @@
+# Ignore node modules
+**/node_modules
+
+# Ignore build outputs and coverage
+**/dist
+**/coverage
+
+# Ignore environment files
+.env
+
+# Ignore lock files
+package-lock.json
+
+# Ignore logs
+*.log
