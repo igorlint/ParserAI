@@ -89,9 +89,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Автор Зобков И,И Telegram @Igorlint tel +79111094268
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Автор Зобков И,И Telegram @Igorlint tel +79111094268
 
 ## License
 
