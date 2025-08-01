@@ -30,7 +30,7 @@ const WarehousesPage: React.FC = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {warehouses.map(w => (
+            {Array.isArray(warehouses) && warehouses.map(w => (
               <TableRow key={w.id}>
                 <TableCell>{w.id}</TableCell>
                 <TableCell>{w.name}</TableCell>

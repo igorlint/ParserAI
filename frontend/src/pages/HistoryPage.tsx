@@ -38,7 +38,7 @@ const HistoryPage: React.FC = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {records.map(r => (
+            {Array.isArray(records) && records.map(r => (
               <TableRow key={r.id}>
                 <TableCell>{r.id}</TableCell>
                 <TableCell>{r.sku}</TableCell>
