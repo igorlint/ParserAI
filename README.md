@@ -85,10 +85,7 @@ services:
 
 ## Next Steps
 
-- Implement business logic in `EventsService` for order events
-- Write unit and integration tests for backend modules
-- Develop frontend reservation flow
-- Dockerize full stack
+
 
 ## License
 
