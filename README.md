@@ -92,4 +92,3 @@ services:
 
 ## License
 
-MIT
